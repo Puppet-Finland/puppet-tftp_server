@@ -1,0 +1,14 @@
+{
+  "name": "puppetfinland-tftp_server",
+  "version": "0.1.0",
+  "author": "Puppet-Finland team",
+  "summary": "Manage tftp_server",
+  "license": "Apache-2.0",
+  "source": "https://github.com/Puppet-Finland/puppet-tftp_server.git",
+  "project_page": "https://github.com/Puppet-Finland/puppet-tftp_server",
+  "issues_url": null,
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 4.0.0" }
+  ]
+}
+

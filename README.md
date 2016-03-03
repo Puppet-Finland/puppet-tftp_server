@@ -1,2 +1,2 @@
-# tftp_server
-Manage tftp-server
+# puppet-tftp_server
+Module to configure tftp-server
