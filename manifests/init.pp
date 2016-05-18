@@ -14,6 +14,7 @@ class tftp_server
     
   include os
   include stdlib
+  include xinetd
   
   anchor { 'tftp_server::begin':
     notify => Class['tftp_server::service'],
