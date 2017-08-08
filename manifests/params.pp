@@ -8,6 +8,7 @@ class tftp_server::params {
   case $::osfamily {
     'Debian': {
       $package_name = 'tftpd-hpa'
+      $pxelinux_package_name = 'pxelinux'
       $service_name = 'tftpd-hpa'
     }
     default: {
